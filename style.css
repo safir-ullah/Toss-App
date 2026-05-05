@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+}
+
+.box {
+    width: 350px;
+    background: white;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px gray;
+}
+
+#coin {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4e47d6;
+}
+
+h2 {
+    color: #333;
+}
