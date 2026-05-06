@@ -9,17 +9,15 @@ function tossCoin() {
 
         let random = Math.ceil(Math.random() * 2);
 
-       if (random == 1) {
-    coin.src = "Head.png";
-    result.innerHTML = "Head";
-}
-else {
-    coin.src = "Tail.png";
-    result.innerHTML = "Tail";
-}
+        if (random === 1) {
+            coin.src = "Head.png";
+            result.innerHTML = "Head";
+        } else {
+            coin.src = "Tail.png";
+            result.innerHTML = "Tail";
+        }
 
         coin.style.transform = "rotateY(0deg)";
 
     }, 1000);
-
 }
